@@ -1,0 +1,59 @@
+body { font-family: Arial, sans-serif; }
+	a:visited {color:#FFFFFF;}
+	a:active {color:#FFFFFF;}
+  #search {
+  	font-family: Arial, sans-serif; 
+	width: 610px; 
+	padding-left: 50px; }
+
+  #map_canvas { height: 85%; width:100%; }
+  
+  #legend {
+    position: absolute;
+    top:60px;
+    right:13px;
+    width:20%;
+    max-width:200px;
+    background-color:#FFFFFF;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size:12px;
+    border: 0.5px solid white;
+    line-height:1.3em;
+	opacity: .85; }
+
+  #note {font-family: Arial, sans-serif;
+  font-size:12px;
+  width:700px; }
+  #rank {font-size:12px;}
+  
+  #compare {
+   width: 680px; 
+   height: 850px; }
+
+#legend h1 {font-size:18px; margin:0 0 4px 0;}
+#legend h2 {font-size:14px; margin:0;}
+#legend h3 {font-size:13px; margin: 10px 0 0 0;}
+
+#legend .colors {float:left;line-height:20px; width:150px; margin: 10px 0;}
+#legend .colors span {height:20px; width:20px; margin-right:5px; display:block; float:left; clear:left; opacity: .85;}
+#legend .less-than-twenty {background-color: #FFFFCC;}
+#legend .more-than-twenty {background-color: #fed976;}
+#legend .more-than-thirty {background-color: #fd8d3c;}
+#legend .more-than-forty {background-color: #e31a1c;}
+#legend .more-than-fifty {background-color: #bd0026;}
+
+#legend p {clear:both; margin:5px 0 0 0;}
+
+#legend form#search {margin:15px 0;}
+#legend form#search label {font-size:16px; font-weight:bold; display:block;}
+#legend form#search input {font-size:14px; margin-top:4px;}
+#legend form#search input[type=text] {width:150px;}
+#legend form#search #alt-addresses p {margin-bottom:2px; font-style:italic;}
+#legend form#search #alt-addresses a {display:block; margin-bottom:3px;}
+
+#legend form#layers {margin:0; padding-top:20px; padding-bottom: 10px;clear:both;}
+#legend form#layers input[type="checkbox"] {margin:0; display:inline;}
+#legend form#layers label {margin:0; display:inline; font-size:16px; cursor:hand; text-decoration:underline; font-weight:bold;}
+
+#legend #credits {font-size:10px; line-height:1.5em;}
